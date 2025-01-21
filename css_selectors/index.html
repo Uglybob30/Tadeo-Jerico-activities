@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: gray;
+        }
+        h1 {
+            color: rgb(0, 0, 0);
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+        }
+        
+        p {
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #ulabel {
+            color: rgb(0, 0, 0);
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+        }
+
+        #plabel {
+            color: rgb(0, 0, 0);
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+        }
+
+        .border {
+            border: 2px black solid;
+            transform: translate(50%-50%);
+        }
+        .yellow {
+            color:rgb(255, 255, 255);
+            transform: translate(30%);
+        }
+
+        button {
+            border: 2px black solid;
+            color: rgb(0, 0, 0);
+            background-color: rgb(255, 255, 255);
+            position: absolute;
+            transform: translate(-50%,-50%);
+            top: 87%;
+            left: 50%;
+            font-size: 25px;
+        }
+        form {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background-color: black;
+            border: 5px;
+            padding: 90px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="bdy">
+            <h1>Login</h1>
+            <br>
+            <h1>This is sample log in</h1>
+            <p id="ulabel" class="border">Username: </p>
+            <input type="text" username="username" id="username" class="border yellow">
+            <br>
+            <p id="plabel" class="border">Password: </p>
+            <input type="password" username="password" id="password" class="border yellow">
+            <br>
+            <button type="submit">Log in</button>
+        </form>
+    </div>
+</body>
+</html>
