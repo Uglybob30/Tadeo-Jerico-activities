@@ -1,0 +1,34 @@
+
+body{
+    background-color: skyblue;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container {
+    border: 2px solid yellowgreen;
+    border-radius: 30px;
+    width: 30rem;
+    height: 30rem;
+    background-color: burlywood ;
+
+}
+.content{
+margin-top: 30%;
+display: grid;
+place-items: center;
+}
+input{
+    color: white;
+    border: 2px white solid;
+    background-color: transparent;
+    padding: 7px;
+    width: 75%;
+    
+}
+.lbl{
+    margin-right: 18rem;
+}
+.btn{
+    width: 75%;
+}

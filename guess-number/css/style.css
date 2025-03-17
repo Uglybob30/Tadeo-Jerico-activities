@@ -1,0 +1,29 @@
+.guess{
+ position: absolute;
+ top: 35%;
+ left: 35%;
+ border: 2px aqua;
+ padding:50px;
+ background-color: blue;
+}
+h1{
+    color:skyblue;
+}
+input{
+    width: 200px;
+    height: 25px;
+    background-color: khaki;
+    color:solid blue;
+}
+button {
+    width: 210px;
+    height:30px;
+    background-color: khaki;
+}
+button:hover{
+    background-color:violet ;
+}
+p{
+    color:solid red;
+    height:20px;
+}
